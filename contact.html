@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <p>If you have any questions, you can contact us via WhatsApp or Email.</p>
+
+        <input type="text" id="name" placeholder="Your Name" required>
+
+
+        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+
+        <div class="btn-group">
+            <button onclick="sendWhatsApp()">Send on WhatsApp</button>
+            <button onclick="sendEmail()">Send via Email</button>
+        </div>
+
+        <hr>
+
+        <p><strong>Email:</strong>portstudys@gmail.com</p>
+        <p><strong>WhatsApp:</strong> +923123985452</p>
+
+        <p class="note">
+            Your information will not be shared. We respect your privacy.
+        </p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

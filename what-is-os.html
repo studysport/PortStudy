@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <span class="menu-icon" onclick="toggleMenu()">☰</span>
+        <span class="logo">Menu of all Topics we covered</span>
+    </div>
+    <br><br>
+    <input type="text" id="searchBox" placeholder="Search another topic...">
+    <button onclick="searchPage()">Search</button>
+    <div class="content">
+
+        <h3>Operating System (OS):</h3>
+        <p>An operating system is system software that controls and manages the computer hardware and software, and
+            allows the user to interact with the computer.</p>
+
+
+
+        <h3>Operating System (OS) – Detailed Explanation:</h3>
+
+        <p>An Operating System (OS) is system software that manages and controls all the hardware and software of a
+            computer. It acts as an interface between the user and the computer hardware. Without an operating system, a
+            computer cannot work properly.</p>
+
+        <p>When a computer is turned on, the operating system is loaded into memory and starts managing all the
+            activities of the system. It controls the CPU, memory, storage devices, and input/output devices.</p>
+
+        <p><strong>Main Functions of an Operating System:</strong>
+            <br><br>
+            1. Process Management: Manages running programs and tasks.
+
+            <br><br>
+            2. Memory Management: Controls and allocates RAM to different programs.
+            <br><br>
+
+            3. File System Management: Organizes and manages files and folders.
+            <br><br>
+
+            4. Device Management: Controls input and output devices like keyboard, mouse, and printer.
+
+            <br><br>
+            5. Security Management: Protects data and controls user access.
+        </p>
+
+
+
+        <p>
+            <strong>Examples of Operating Systems:</strong>
+            <br><br>
+            1.Microsoft Windows
+            <br><br>
+            2.Linux
+            <br><br>
+            3.macOS
+            <br><br>
+            4. Android
+        </p>
+
+        <p>Therefore, the operating system is an essential program that controls the overall working of the computer and
+            makes it easy for users to perform different tasks.</p>
+    </div>
+
+    <div id="sideMenu" class="side-menu">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">Close Menu</a>
+
+        <button class="dropdown-btn" onclick="toggleDropdown('csTopics')">
+            Computer Science <span class="arrow">▶</span>
+        </button>
+        </button>
+        <div id="csTopics" class="dropdown-container">
+            <a href="what-is-computer.html">What is Computer</a>
+            <a href="what-is-hardware.html">What is Hardware</a>
+            <a href="what-is-software.html">What is Software</a>
+            <a href="what-is-cpu.html">What is CPU</a>
+            <a href="what-is-ram.html">What is RAM</a>
+            <a href="what-is-rom.html">What is ROM</a>
+            <a href="what-is-storage.html">What is Hard Disk / Storage</a>
+            <a href="what-is-motherboard.html">What is Motherboard</a>
+            <a href="what-is-inputdevice.html">What is Input Device </a>
+            <a href="what-is-outputdevice.html">What is Output Device</a>
+            <a href="what-is-os.html">What is Operating System (OS)</a>
+            <a href="what-is-keyboard.html">What is Keyboard</a>
+            <a href="what-is-mouse.html">What is Mouse</a>
+            <a href="what-is-monitor.html">What is Monitor</a>
+            <a href="what-is-printer.html">What is Printer</a>
+
+        </div>
+
+        <button class="dropdown-btn" onclick="toggleDropdown('bioTopics')">
+            Biology <span class="arrow">▶</span>
+        </button>
+        <div id="bioTopics" class="dropdown-container">
+            <a href="intro-bio.html">Introduction to Biology</a>
+            <a href="bio-molecules.html">Biological Molecules</a>
+            <a href="enzymes.html">Enzymes</a>
+            <a href="cell.html">The Cell</a>
+            <a href="variety.html">Variety of Life</a>
+            <a href="monera.html">Kingdom Monera</a>
+            <a href="protista.html">Kingdom Protista</a>
+            <a href="fungi.html">Kingdom Fungi</a>
+            <a href="plantae.html">Kingdom Plantae</a>
+            <a href="animalia.html">kingdom Animalia</a>
+            <a href="bioenergetics.html">Bioenergetics</a>
+            <a href="nutrition.html">Nutrition</a>
+            <a href="gaseous.html">Gaseous Exchange</a>
+            <a href="transport.html">Transport</a>
+            <a href="homeostasis.html">Homeostasis</a>
+            <a href="support-and-movement.html">Support and Movement</a>
+            <a href="coordination-and-controls.html">Coordination and Controls</a>
+            <a href="reproduction.html">Reproduction</a>
+            <a href="growth-and-development.html">Growth and Development</a>
+            <a href="chromosomes-and-dna.html">Chromosomes and DNA</a>
+            <a href="cell-cycle.html">Cell Cycle</a>
+            <a href="variation-and-genetics.html">variation and Genetics</a>
+            <a href="biotechnology.html">Biotechnology</a>
+            <a href="evolution.html">Evolution</a>
+            <a href="ecosystem.html">Ecosystem</a>
+            <a href="some-major-eco.html">Some Major ecosystem</a>
+            <a href="man-environment.html"> Man and his Environment</a>
+
+        </div>
+
+        <button class="dropdown-btn" onclick="toggleDropdown('phyTopics')">
+            Physics <span class="arrow">▶</span>
+        </button>
+        <div id="phyTopics" class="dropdown-container">
+            <a href="physical-quantities.html">Physical Quantities and Measurement</a>
+            <a href="kinematics.html">Kinematics</a>
+            <a href="dynamics.html">Dynamics (Newton's Laws)</a>
+            <a href="energy.html">Work, Energy and Power</a>
+            <a href="motion.html">Motion of System of Particles and Rigid Body</a>
+            <a href="gravitation.html">Gravition</a>
+            <a href="Properties.html">Properties of Matter</a>
+            <a href="oscillations.html">Oscillations</a>
+            <a href="waves.html">Mechanical Waves</a>
+            <a href="electrostatics.html">Electrostatics</a>
+            <a href="current.html">Current Electricity</a>
+            <a href="magnetism.html">Magnetic Effects of Current and Magnetism</a>
+            <a href="induction.html">Electromagnetic Induction and Alternating Currents</a>
+            <a href="optics.html">Optics</a>
+            <a href="nature.html">Dual Nature of Master and Radiation</a>
+            <a href="atoms.html">Atoms and Nuclei</a>
+            <a href="devices.html">Electronic Devices</a>
+        </div>
+        <hr>
+        <a href="privacy.html">Privacy Policy</a>
+        <br><br>
+        <a href="about.html">About</a>
+        <br><br>
+        <a href="contact.html">Contact us</a>
+
+        <script src="script.js"></script>
+</body>
+
+</html>
