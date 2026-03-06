@@ -51,7 +51,6 @@ const topics = [
 
     { keyword: "electrostatics", page: "electrostatics.html" },
     { keyword: "electrostatic", page: "electrostatics.html" },
-    { keyword: "", page: "" },
 
     { keyword: "current electricity", page: "current-electricity.html" },
     { keyword: "electromagnetism", page: "electromagnetism.html" },
