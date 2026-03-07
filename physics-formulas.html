@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyPort</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1 class="logo">StudyPort</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About</a>
+            <a href="privacy.html">Privacy</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <input type="text" id="searchInput" placeholder="Search another topic...">
+        <button onclick="searchTopic()">Search</button>
+    </section>
+
+<div class="content">
+<h1 style="text-align:center;">Physics Formula Sheet (9th – 12th)</h1>
+
+<input type="text" id="searchBox" placeholder="Search formula e.g. force, ohm law, work..."
+style="width:100%; padding:10px; font-size:16px; margin-bottom:20px;">
+
+<div id="formulaContainer">
+
+<!-- ================= 9th ================= -->
+
+<h2>Class 9 Physics</h2>
+
+<div class="formula">Speed = Distance / Time</div>
+<div class="formula">Velocity = Displacement / Time</div>
+<div class="formula">Acceleration = (v - u) / t</div>
+<div class="formula">Force = m × a</div>
+<div class="formula">Momentum = m × v</div>
+<div class="formula">Pressure = Force / Area</div>
+<div class="formula">Work = Force × Distance</div>
+<div class="formula">Power = Work / Time</div>
+<div class="formula">Density = Mass / Volume</div>
+
+<hr>
+
+<!-- ================= 10th ================= -->
+
+<h2>Class 10 Physics</h2>
+
+<div class="formula">Wave Speed = f × λ</div>
+<div class="formula">Frequency = 1 / Time Period</div>
+<div class="formula">Ohm’s Law: V = IR</div>
+<div class="formula">Electric Power = VI</div>
+<div class="formula">Efficiency = (Useful Energy / Total Energy) × 100</div>
+<div class="formula">Transformer: Vp/Vs = Np/Ns</div>
+<div class="formula">Lens Formula: 1/f = 1/v + 1/u</div>
+<div class="formula">Magnification = Image Height / Object Height</div>
+
+<hr>
+
+<!-- ================= 11th ================= -->
+
+<h2>Class 11 Physics</h2>
+
+<div class="formula">Vector Resultant: R = √(A² + B² + 2ABcosθ)</div>
+<div class="formula">Newton Second Law: F = ma</div>
+<div class="formula">Work = Fd cosθ</div>
+<div class="formula">Kinetic Energy = ½mv²</div>
+<div class="formula">Potential Energy = mgh</div>
+<div class="formula">Centripetal Force = mv² / r</div>
+<div class="formula">Stress = F / A</div>
+<div class="formula">Young Modulus = Stress / Strain</div>
+<div class="formula">Simple Harmonic Motion: T = 2π√(m/k)</div>
+
+<hr>
+
+<!-- ================= 12th ================= -->
+
+<h2>Class 12 Physics</h2>
+
+<div class="formula">Coulomb Law: F = k(q₁q₂ / r²)</div>
+<div class="formula">Electric Field = kq / r²</div>
+<div class="formula">Electric Potential = kq / r</div>
+<div class="formula">Capacitance = Q / V</div>
+<div class="formula">Energy in Capacitor = ½CV²</div>
+<div class="formula">Current = Q / t</div>
+<div class="formula">Resistance = ρL / A</div>
+<div class="formula">Magnetic Field = μ₀I / 2πr</div>
+<div class="formula">Faraday Law: ε = - dΦ/dt</div>
+<div class="formula">Induced EMF = BLv</div>
+<div class="formula">RMS Voltage = V₀ / √2</div>
+<div class="formula">Impedance = √(R² + (XL - XC)²)</div>
+<div class="formula">Photoelectric Equation: hf = W + KE</div>
+<div class="formula">Einstein Equation: E = mc²</div>
+<div class="formula">De Broglie Wavelength = h / mv</div>
+<div class="formula">Radioactive Decay: N = N₀e^(-λt)</div>
+<div class="formula">Half Life = 0.693 / λ</div>
+
+</div>
+
+<!-- ================= SEARCH SCRIPT ================= -->
+
+<script>
+const searchBox = document.getElementById("searchBox");
+const formulas = document.querySelectorAll(".formula");
+
+searchBox.addEventListener("keyup", function() {
+    let value = searchBox.value.toLowerCase();
+
+    formulas.forEach(function(formula) {
+        if (formula.textContent.toLowerCase().includes(value)) {
+            formula.style.display = "block";
+        } else {
+            formula.style.display = "none";
+        }
+    });
+});
+</script>
+
+<style>
+body {
+    font-family: Arial;
+}
+h2 {
+    color: darkblue;
+}
+.formula {
+    padding: 8px;
+    background: #f2f2f2;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+</style>
+
+</div>
+
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
