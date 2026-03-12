@@ -27,6 +27,10 @@ const topics = [
     { keyword: "mother board", page: "motherboard.html" },
     { keyword: "cpu", page: "cpu.html" },
 
+{ keyword: "central processing unit", page: "cpu.html" },
+{ keyword: "processor", page: "cpu.html" },
+{ keyword: "computer cpu", page: "cpu.html" },
+
     { keyword: "rom", page: "rom.html" },
     { keyword: "hardware", page: "hardware.html" },
     { keyword: "hard ware", page: "hardware.html" },
