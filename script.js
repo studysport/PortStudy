@@ -14,6 +14,10 @@ const topics = [
     { keyword: "input device", page: "input-devices.html" },
     { keyword: "input devices", page: "input-devices.html" },
 
+{ keyword: "operating system", page: "operating-system.html" },
+{ keyword: "os", page: "operating-system.html" },
+{ keyword: "computer operating system", page: "operating-system.html" },
+
     { keyword: "ram", page: "ram.html" },
     { keyword: "storage", page: "storage.html" },
     { keyword: "harddisk", page: "storage.html" },
